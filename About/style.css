@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url('https://images2.alphacoders.com/833/thumb-1920-833772.jpg');
+    /*background-size: cover;*/
+}
+/*********************************Nav**************************************/
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 5px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-right: 20px;
+}
+
+.main-nav li a
+{
+    color: rgb(15, 195, 207);
+    text-decoration: none;
+    padding: 15px 20px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 20px;
+}
+
+.main-nav li:hover
+{
+    background-color: white;
+    transition: 0.5s;
+}
+
+.main-nav li a:hover
+{
+    color: rgb(92, 62, 8);
+    font-family: bold;
+    transition: 1s ease;
+}
+
+/********************************Nav*************************/
+
+.container
+{
+    width: 550px;
+    height: 600px;
+    background-color: grey;
+    float: right;
+    transform: translate(155%, 25%);
+    margin-right: 5px;
+    overflow: auto;
+}
+
+.info-section
+{
+    margin: 35px;
+}
+
+.info-section h2
+{
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    padding-bottom: 10px;
+}
+
+.info-section p 
+{
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+}
+
+.moreInfo-button
+{
+    text-align: center;
+}
+
+.moreInfo-button button
+{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    background: yellowgreen;
+    border-color: red;
+    font-weight: bold;
+    color: wheat;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 14px;
+}
+
+.moreInfo-button:hover
+{
+    background-color: violet;
+    transition: 1.5s ease;
+}
